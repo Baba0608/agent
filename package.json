@@ -7,7 +7,7 @@
   "type": "module",
   "main": "index.ts",
   "scripts": {
-    "dev": "npx @langchain/langgraph-cli dev"
+    "dev": "npx @langchain/langgraph-cli dev -p 8080"
   },
   "dependencies": {
     "@langchain/openai": "^1.2.12",
