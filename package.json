@@ -1,0 +1,21 @@
+{
+  "name": "my-agent",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Baba",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "npx @langchain/langgraph-cli dev"
+  },
+  "dependencies": {
+    "@langchain/openai": "^1.2.12",
+    "dotenv": "^17.3.1",
+    "langchain": "^1.2.30"
+  },
+  "devDependencies": {
+    "@types/node": "^25.4.0",
+    "typescript": "^5.9.3"
+  }
+}
