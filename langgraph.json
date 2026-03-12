@@ -3,6 +3,5 @@
   "graphs": {
     "my-agent": "./index.ts:agent"
   },
-  "env": "./.env",
   "dependencies": ["."]
 }
